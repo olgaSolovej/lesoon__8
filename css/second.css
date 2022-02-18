@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;900&family=Pacifico&display=swap');
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5; 
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url(../img/contentbackround.jpg) center no-repeat fixed;
+}
+.header{
+    margin: 0px 0 50px 0;    
+    text-align: center;
+    background: url(../img/logokino.jpg) center / cover no-repeat;  
+    box-shadow:  inset 1px 3px 41px #000000b6;
+    box-sizing: content-box;
+    border: 1px solid #000000b6;
+    border-radius: 20px;
+    
+}
+.header-logo{
+    font-size: 60px;
+    color: #ffffff;      
+}
+.content{
+    
+}
+.content-title{
+    display: inline-block;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 0 0 40px;
+    color: rgb(5, 5, 46);
+    text-shadow: 2px 2px 4px cornflowerblue;
+    background-color: rgba(217, 223, 222, 0.897);
+
+}
+.content-subtitle{
+    display: inline-block;    
+    font-size: 60px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+}
+.content-subtitle::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+
+}
+
+.content-text *:not(:last-child){
+    margin:0 0 20px 0;
+}
+
+.content-text p:nth-child(odd){
+    background-color: rgba(221, 217, 217, 0.753);
+}
+.content-text p:nth-child(odd):hover{
+    background-color: rgba(169, 169, 169, 0.74);
+
+}
+.content-text p:nth-child(even){
+    color: rgb(48, 32, 56);
+}
+.content-text p:nth-child(even):hover{
+    background: rgba(233, 150, 122, 0.733);
+}
+
+.content-inline{
+    font-style: oblique;
+}
+.content-detective *:not(:last-child){
+    margin: 0 0 40px 0;
+}
+.content-detective *:first-child{
+    background-color: rgba(105, 105, 105, 0.527);
+    
+}
+.content-detective p:first-of-type{
+    color: rgb(54, 42, 9);
+    text-shadow:2px 4px 4px goldenrod;
+}
+.content-detective p:first-of-type:hover{
+    background-color: rgba(95, 93, 88, 0.363);
+}
+.content-detective p:nth-child(3),
+.content-detective p:nth-child(4){
+    background: rgba(110, 104, 116, 0.404);
+}
+.content-detective p:last-of-type{
+    background-color: rgba(95, 93, 88, 0.37);
+}
+.list-fantasy li:not(:last-child){
+    margin: 0 0 20px 0;
+}
+
+.list-fantasy li:nth-child(2):hover{
+    background-color: burlywood;    
+    text-align: justify;
+    line-height: 2;
+}
+.list-fantasy li::before{
+    content: "";
+    background: url(../img/fantasy.jpg)  0 0 / 40px  no-repeat ;    
+    display: inline-block;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px 0 -32px;
+}
